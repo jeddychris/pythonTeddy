@@ -1,0 +1,9 @@
+num1 = 10
+num2 = 5
+print(num1 > num2)
+num3 = 8
+num4 = 3
+print(num4 > num3)
+num5 = 7
+num6 = 9
+print(num6 > num5)
