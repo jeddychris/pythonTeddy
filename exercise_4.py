@@ -1,20 +1,23 @@
-import datetime
-week_num = datetime.date(2023,2,23).weekday()
-week_day = input("Enter day")
-print(week_day
-if week_day == monday:
-    print("")
-elif  week_day == tuesday:
-    print("Data Deals")
-elif  week_day == wednesday:
-    print("Daily Bundles")
-elif  week_day ==3:
-    print("Weekly Bundles")
-elif  week_day ==4:
-    print("Go Monthly")
-elif  week_day ==5:
-    print("No Expiry")
-elif  week_day ==6:
-    print("Video Bundles")
-elif number == 7:
-    print("Okoa Data")
+from datetime import date
+#extract today date
+today = date.today()
+input("Enter day of the week").lower()
+if today.weekday() == date.today():
+    print("true")
+else:
+    print("false")
+if today.weekday() == 0:
+    print("today is Monday")
+elif today.weekday() == 1:
+    print("Today is Tuesday")
+elif today.weekday() == 2:
+    print("Today is Wednesday")
+elif today.weekday() ==3:
+    print("Today is Thursday")
+elif today.weekday() == 4:
+    print("Today is Friday")
+elif today.weekday() == 5:
+    print("Today is Saturday")
+else:
+    print("Today is Sunday")
+
